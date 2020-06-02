@@ -1,0 +1,72 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+/* regla */
+
+/* selector de ETIQUETA "header"-->*/
+/* declaración "background"--->*/
+/* valores "red"*/
+
+.logo-img{
+  width: 700px;
+  height: 130px;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Fjalla', sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: -.2px;
+  color: white;
+  margin: 0 auto;
+}
+h1 strong{
+  color: #026fff;
+}
+
+.hero{
+  height: 300px;
+  background-image: url('../images/datos.webp');
+  background-color: #1b2127;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.project{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-details{
+  width: 500px;
+}
+.header{
+  background-color: #1b2127;
+  color: white;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+}
+/*selector de etiqueta header - section
+selector descendente
+body header div -> nav -> ol -> li -> a */
+
+/* El selector de CLASE (class) se le pone un punto antes del nombre ej = .portafolio  */
+
+/* .link */
+
+/* selector de ID */
+/*#portafolio */
