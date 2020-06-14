@@ -118,6 +118,13 @@ h1 strong{
   margin: 10px;
   margin-bottom: 15px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-image{
+  vertical-align: middle;
+  height: 200px;
+  width: 500px;
 }
 .project_title{
   font-size: 30px;
@@ -130,6 +137,10 @@ h1 strong{
 
 .project-description{
   font-size: 20px;
+}
+
+.project strong{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .project-details{
