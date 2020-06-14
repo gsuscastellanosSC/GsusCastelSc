@@ -146,35 +146,44 @@ h1 strong{
   width: 500px;
 }
 
-
-.experiences{
-  background: white;  
-  padding: 20px;
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.experiences-title__h2{
-  padding-left: 10px;
-  color: #026fff;
-  text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 40px;
+.event-list-title {
+  margin-left: 20px;
 }
-
-.exper{
-  margin-top: 0;
-  background-color: white;
-  border: 1px solid gray;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  padding: 20px;
+.event { 
   margin: 10px;
-  margin-bottom: 15px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.event-description {
+  text-align: left;
 }
 
-.exper-details{
-  width: 500px;
+.event-url {
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 
