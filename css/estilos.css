@@ -9,6 +9,12 @@ valores */
 /* selector de ETIQUETA "header"-->*/
 /* declaración "background"--->*/
 /* valores "red"*/
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .logo-img{
   width: 700px;
@@ -16,6 +22,47 @@ valores */
 }
 body{
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.menu {
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -28,7 +75,7 @@ h1 {
   line-height: 150%;
   letter-spacing: -.2px;
   color: white;
-  margin: 0 auto;
+  margin: 0px 0px 0px 0px;
 }
 h1 strong{
   color: #026fff;
@@ -44,8 +91,12 @@ h1 strong{
 }
 
 .project{
+  background-color: white;
   border: 1px solid gray;
   border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  margin: 10px;
   margin-bottom: 15px;
 }
 
@@ -59,6 +110,24 @@ h1 strong{
 .header a{
   color: white;
   text-decoration: none;
+}
+.porfolio{
+  margin: 0;
+  background: #626262;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  flex-shrink: 0;
+  margin: 10px;
 }
 /*selector de etiqueta header - section
 selector descendente
