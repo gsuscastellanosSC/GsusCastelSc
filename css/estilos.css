@@ -82,7 +82,7 @@ figure {
 
 h1,h2,h3,h4,h5,h6{
   color: black;
-  font-family: 'Fjalla', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
 }
 
@@ -109,21 +109,20 @@ h1 strong{
 }
 
 .project{
-  margin-top: 0;
-  background-color: white;
   border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 15px;
   padding: 20px;
-  margin: 10px;
-  margin-bottom: 15px;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .project-image{
-  vertical-align: middle;
   height: 200px;
+  width: 500px;
+}
+.project-imageContainer {
   width: 500px;
 }
 .project_title{
@@ -140,7 +139,7 @@ h1 strong{
 }
 
 .project strong{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .project-details{
