@@ -15,16 +15,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-.log{
-  margin-top: 0px;
-}
-.logo-img{
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  width: 200px;
-  height: 80px;
-}
+
 
 .hero{
   height: 292px;
@@ -33,6 +24,7 @@ ul {
   background-size: 300px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
+  display: flex;
 }
 .hero-text{
   padding-top: 75px;
@@ -45,13 +37,16 @@ body{
 }
 
 .header {
-  margin-top: 0px;
-  background-color: #c96969;
-  color: white;
+  font-style: oblique;
+  background-color: white;
+  color: black;
   display: flex;
-  height: 100px;
   align-items: center;
   justify-content: space-between;
+}
+.header img{
+  padding-top: 10px;
+  vertical-align: middle;
 }
 
 ol,
@@ -66,7 +61,7 @@ figure {
 }
 
 .header a {
-  color: white;
+  color: black;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -98,7 +93,7 @@ h1 {
   margin: 0px 0px 0px 0px;
 }
 h1 strong{
-  color: #026fff;
+  color: #ff5353;
 }
 
 .project{
@@ -119,20 +114,21 @@ h1 strong{
   width: 500px;
 }
 
-.header a{
-  color: white;
-  text-decoration: none;
-}
 .porfolio{
   background: #000000;
 }
-/*selector de etiqueta header - section
-selector descendente
-body header div -> nav -> ol -> li -> a */
+.footer{
+  font-style: oblique;
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/* El selector de CLASE (class) se le pone un punto antes del nombre ej = .portafolio  */
-
-/* .link */
-
-/* selector de ID */
-/*#portafolio */
+.footer img{
+  vertical-align: middle;
+}
+.footer a{
+  color: #ffff;
+}
