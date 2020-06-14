@@ -148,7 +148,7 @@ h1 strong{
 
 .event { 
   margin: 10px;
-  width: 480px;
+  width: 460px;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -157,14 +157,17 @@ h1 strong{
 
 .event-list {
   display: flex;
-  align-content: center;
 }
 .event-list-title {
+  color: #026fff;
   margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 
 .event img {
-  width: 480px;
+  width: 460px;
   height: 300px;
   
 }
