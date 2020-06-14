@@ -146,13 +146,6 @@ h1 strong{
   width: 500px;
 }
 
-.event-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.event-list-title {
-  margin-left: 20px;
-}
 .event { 
   margin: 10px;
   width: 480px;
@@ -161,6 +154,15 @@ h1 strong{
   overflow: hidden;
   background: #f4fbff;
 }
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.event-list-title {
+  margin-left: 20px;
+}
+
 .event img {
   width: 480px;
   height: 200px;
