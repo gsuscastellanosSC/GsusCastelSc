@@ -95,6 +95,14 @@ h1 strong{
   color: #ff5353;
 }
 
+.porfolio{
+  background: #000000;
+}
+.porfolio-title__h2{
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
 .project{
   margin-top: 0;
   background-color: white;
@@ -105,14 +113,20 @@ h1 strong{
   margin: 10px;
   margin-bottom: 15px;
 }
-.porfolio-title__h2{
-  margin-top: 20px;
-  padding-top: 10px;
-}
+
 .project-details{
   width: 500px;
 }
 
+
+.experiences{
+  background: #000000;  
+}
+
+.experiences-title__h2{
+  margin-top: 20px;
+  padding-top: 10px;
+}
 
 .exper{
   margin-top: 0;
@@ -124,18 +138,13 @@ h1 strong{
   margin: 10px;
   margin-bottom: 15px;
 }
-.exper-title__h2{
-  margin-top: 20px;
-  padding-top: 10px;
-}
+
 .exper-details{
   width: 500px;
 }
 
 
-.porfolio{
-  background: #000000;
-}
+
 .footer{
   font-style: oblique;
   color: white;
