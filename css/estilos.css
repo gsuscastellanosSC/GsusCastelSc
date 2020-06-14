@@ -165,8 +165,8 @@ h1 strong{
 
 .event img {
   width: 480px;
-  height: 200px;
-  object-fit: cover;
+  height: 300px;
+  
 }
 .event-detail {
   margin: 20px 40px;
