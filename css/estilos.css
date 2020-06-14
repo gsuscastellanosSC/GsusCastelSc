@@ -80,7 +80,7 @@ figure {
 }
 
 h1,h2,h3,h4,h5,h6{
-  color: white;
+  color: black;
   font-family: 'Fjalla', sans-serif;
   font-weight: normal;
 }
@@ -96,11 +96,15 @@ h1 strong{
 }
 
 .porfolio{
-  background: #000000;
+  background: white;
+  padding: 20px;
 }
 .porfolio-title__h2{
-  margin-top: 20px;
-  padding-top: 10px;
+  padding-left: 10px;
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 
 .project{
@@ -112,6 +116,7 @@ h1 strong{
   padding: 20px;
   margin: 10px;
   margin-bottom: 15px;
+  display: flex;
 }
 
 .project-details{
@@ -120,12 +125,18 @@ h1 strong{
 
 
 .experiences{
-  background: #000000;  
+  background: white;  
+  padding: 20px;
 }
 
 .experiences-title__h2{
-  margin-top: 20px;
-  padding-top: 10px;
+  padding-left: 10px;
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .exper{
