@@ -157,7 +157,7 @@ h1 strong{
 
 .event-list {
   display: flex;
-  flex-wrap: wrap;
+  align-content: center;
 }
 .event-list-title {
   margin-left: 20px;
