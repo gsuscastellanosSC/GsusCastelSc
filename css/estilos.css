@@ -119,6 +119,18 @@ h1 strong{
   margin-bottom: 15px;
   display: flex;
 }
+.project_title{
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.project_course, .project-date, .project-url{
+  margin: 10px 0;
+}
+
+.project-description{
+  font-size: 20px;
+}
 
 .project-details{
   width: 500px;
