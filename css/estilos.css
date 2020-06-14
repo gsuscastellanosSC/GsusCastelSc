@@ -19,7 +19,7 @@ ul {
 
 .hero{
   height: 292px;
-  background-image: url('../images/FotoPerfil.jpg');
+  background-image: url('../images/IMG_20191115_151604.jpg');
   background-color: #000000;
   background-size: 300px 300px;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body{
 
 .header {
   font-style: oblique;
-  background-color: white;
+  background-color: black;
   color: black;
   display: flex;
   align-items: center;
@@ -61,7 +61,7 @@ figure {
 }
 
 .header a {
-  color: black;
+  color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -86,14 +86,14 @@ h1,h2,h3,h4,h5,h6{
   font-weight: normal;
 }
 
-h1 {
+h1{
   font-size: 40px;
   line-height: 150%;
   letter-spacing: -.2px;
   margin: 0px 0px 0px 0px;
 }
 h1 strong{
-  color: #ff5353;
+  color:#026fff;
 }
 
 .porfolio{
