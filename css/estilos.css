@@ -113,6 +113,26 @@ h1 strong{
   width: 500px;
 }
 
+
+.exper{
+  margin-top: 0;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+.exper-title__h2{
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.exper-details{
+  width: 500px;
+}
+
+
 .porfolio{
   background: #000000;
 }
