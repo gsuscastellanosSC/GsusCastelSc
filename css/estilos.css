@@ -249,6 +249,18 @@ h1 strong{
   background-position-x: 5px;
 }
 
+.form-email button{
+  display: block;
+  background: transparent;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+
 .footer{
   font-style: oblique;
   color: white;
