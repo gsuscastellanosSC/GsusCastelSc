@@ -37,7 +37,7 @@ body{
 }
 
 .header {
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -51,8 +51,11 @@ body{
 .header img{
   height: 90px;
   width: 200px;
-  padding-top: 10px;
   vertical-align: middle;
+  color: white;
+  border: 1px solid;
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 
 ol,
