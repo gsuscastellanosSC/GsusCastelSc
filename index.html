@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-   <header class="header">
+  <header class="header">
+    <div class="container">
       <figure>
         <img class="logo-img" src="https://fontmeme.com/permalink/200615/5b665b6c9c76c0fadd29ff66a17fe67c.png" alt="logo">
         <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/00b959f3d3aadcdb1e7a0e89842395c9.png" alt="logo"> -->
         <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/03b296551599f1f5dbf984c8abd0f659.png" alt="logo"> -->
       </figure>     
-        
       <nav class="menu">
       <ol>
         <li>
@@ -29,18 +29,20 @@
           <a href="#contact">Contacto</a>
         </li>
       </ol>
-    </nav>
+      </nav>
+    </div>
   </header>
   <section class="hero">
+   <div class="container">
     <h1 class="hero-text">
       ¡Hola! Soy <strong>Jesus</strong>, ingeniero de sistemas<br>con <strong>experiencia</strong> en <strong>datos</strong> y <strong>desarrollo</strong> de <strong>aplicaciones</strong>.
     </h1>
-    <!-- <figure>
-      <img class="hero-img" src="images/LogoII.jpg" width="500" height="500" alt="FotoPerfil" >
-    </figure> -->
+    <img class="hero-img" src="images/IMG_20191115_151604.jpg" width="500" height="500" alt="FotoPerfil" >
+   </div>
   </section>
   <section id="briefcase" class="porfolio">
-    <h2 class="porfolio-title__h2">Portafolio (Proyectos Destacados)</h2>
+    <div class="container">
+      <h2 class="porfolio-title__h2">Portafolio (Proyectos Destacados)</h2>
     <article class="project">
       <div class="project-details">
         <h3 class="project_title">Plazi Video</h3>
@@ -115,66 +117,66 @@
         <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="PlatziVideo">
       </figure>
      </article> 
-    </section>
-  
+    </div>
+  </section>
+  <div class="container">
     <div class="container">
       <h2 class="event-list-title">Más sobre mi experiencia</h2>
     </div>
-    <section id="eventos" class="event-list">
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="images/solem.jpeg"/>
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">SOLEM COLOMBIA (PROVEEDOR GRUPO AVAL)</h3>
-            <p class="event-description"><strong>Bogota — INGENIERO ANALISTA DE SOPORTE NIVEL 2</strong><br>
-              Diagnóstico y solución de errores en Frontend y Backend, con JavaScript y Java.<br><br>
-            </p>
-            <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre SOLEM</a>
-          </div>
-        </article>
-
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="images/leonAsociados.png"/>
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">LEON & ASOCIADOS</h3>
-            <p class="event-description"><strong>Bogotá — DATA MARSHALL.</strong><br>
-              Dentro de mis funciones más importantes se encontraban la administración de la bases de datos en las diferentes áreas de negocio, generación de informes gerenciales para los clientes y áreas administrativas.<br><br>
-            </p>
-            <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre LEON & ASOCIADOS</a>
-          </div>
-        </article>
-
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="images/Logo+Clínicos-480w.webp"/>
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">CLÍNICOS PROGRAMAS DE ATENCIÓN INTEGRAL SAS IPS</h3>
-            <p class="event-description"><strong>Bogotá — ANALISTA DE BASES DE DATOS.</strong><br>
-              Dentro de esta empresa logre liderar proyectos para el análisis eficientes de los datos aportando a la toma de decisiones de la empresa. Aporte en la automatización de reportes con la ayuda de la herramientas Excel y access y participe en la creación de programas desarrollados con Python para validar los informes entregados a entes de control.<br>
-Diseño de algoritmos para la consulta y análisis de la data con el objetivo de identificar aspectos críticos en la toma de decisiones y responsabilidades médicas.<br><br>
-            </p>
-            <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre CLÍNICOS</a>
-          </div>
-        </article>
-
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="images/chameleon-comunicaciones-moviles-sas-16E4D57B3821B066130411thumbnail.png"/>
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">KAMILION S.A.S</h3>
-            <p class="event-description"><strong>Bogotá — ANALISTA DE EFICIENCIA OPERACIONAL</strong><br>
-              En esta empresa me encargaba del análisis de datos y la generación de informes para las áreas internas de la empresa y sus clientes.<br><br>
-            </p>
-            <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre KAMILION</a>
-          </div>
-        </article>
-   </section>
-
+  </div>
+  <section id="eventos" class="event-list">
+    <div class="container">
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/solem.jpeg"/>
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">SOLEM COLOMBIA (PROVEEDOR GRUPO AVAL)</h3>
+          <p class="event-description"><strong>Bogota — INGENIERO ANALISTA DE SOPORTE NIVEL 2</strong><br>
+            Diagnóstico y solución de errores en Frontend y Backend, con JavaScript y Java.<br><br>
+          </p>
+          <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre SOLEM</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/leonAsociados.png"/>
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">LEON & ASOCIADOS</h3>
+          <p class="event-description"><strong>Bogotá — DATA MARSHALL.</strong><br>
+            Dentro de mis funciones más importantes se encontraban la administración de la bases de datos en las diferentes áreas de negocio, generación de informes gerenciales para los clientes y áreas administrativas.<br><br>
+          </p>
+          <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre LEON & ASOCIADOS</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/Logo+Clínicos-480w.webp"/>
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">CLÍNICOS PROGRAMAS DE ATENCIÓN INTEGRAL SAS IPS</h3>
+          <p class="event-description"><strong>Bogotá — ANALISTA DE BASES DE DATOS.</strong><br>
+            Dentro de esta empresa logre liderar proyectos para el análisis eficientes de los datos aportando a la toma de decisiones de la empresa. Aporte en la automatización de reportes con la ayuda de la herramientas Excel y access y participe en la creación de programas desarrollados con Python para validar los informes entregados a entes de control.<br>
+            Diseño de algoritmos para la consulta y análisis de la data con el objetivo de identificar aspectos críticos en la toma de decisiones y responsabilidades médicas.<br><br>
+          </p>
+          <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre CLÍNICOS</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/chameleon-comunicaciones-moviles-sas-16E4D57B3821B066130411thumbnail.png"/>
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">KAMILION S.A.S</h3>
+          <p class="event-description"><strong>Bogotá — ANALISTA DE EFICIENCIA OPERACIONAL</strong><br>
+            En esta empresa me encargaba del análisis de datos y la generación de informes para las áreas internas de la empresa y sus clientes.<br><br>
+          </p>
+          <a class="event-url" href="https://www.solem.cl/" target="_blank">Más sobre KAMILION</a>
+        </div>
+      </article>
+    </div>
+  </section>
   <section id="contact" class="contacto">
     <form class="form-email" action="/suscripcion/">
       <h3 class="contacto_h3">¿Creamos algo juntos?</h3>

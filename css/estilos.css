@@ -18,13 +18,17 @@ ul {
 
 
 .hero{
-  height: 292px;
-  background-image: url('../images/IMG_20191115_151604.jpg');
+  height: 302px;
+  /* background-image: url('../images/IMG_20191115_151604.jpg'); */
   background-color: #000000;
-  background-size: 300px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  /* background-size: 300px 300px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
   display: flex;
+}
+.hero-img{
+  height: 300px;
+  width: 300px;
 }
 .hero-text{
   color: white;
@@ -39,7 +43,6 @@ body{
 .header {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
   font-style: oblique;
   background-color: black;
   color: black;
@@ -280,4 +283,14 @@ h1 strong{
 }
 .footer a{
   color: #ff5353;
+}
+
+.container{
+  border: 1px solid red;
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
 }
