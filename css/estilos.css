@@ -157,7 +157,7 @@ h1 strong{
 
 .event { 
   margin: 10px;
-  width: 460px;
+  width: 450px;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -176,7 +176,7 @@ h1 strong{
 }
 
 .event img {
-  width: 460px;
+  width: 450px;
   height: 300px;
   
 }
@@ -259,6 +259,10 @@ h1 strong{
   border-radius: 5px;
   width: 100px;
   margin-top: 10px;
+}
+
+.form-email h3{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .footer{
