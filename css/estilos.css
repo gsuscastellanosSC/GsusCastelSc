@@ -169,6 +169,7 @@ h1 strong{
 
 .event-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .event-list-title {
   color: #026fff;
@@ -293,4 +294,5 @@ h1 strong{
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
+  flex-wrap: inherit;
 }
