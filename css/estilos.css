@@ -116,6 +116,9 @@ h1 strong{
   font-weight: bold;
 }
 
+.porfolio p small a{
+  font-size: 15px;
+}
 .project{
   border: 1px solid gray;
   border-radius: 10px;
@@ -138,6 +141,7 @@ h1 strong{
 }
 .project_course, .project-date, .project-url{
   margin: 10px 0;
+  font-size: 20px;
 }
 
 .project-description{
@@ -159,7 +163,7 @@ h1 strong{
 
 .project-imageContainer img{
   max-width: 100%;
-  
+
 }
 
 .event { 
@@ -341,9 +345,35 @@ h1 strong{
   .project-details{
     width: auto;
   }
+  .project_course, .project-date, .project-url{
+    margin: .3em 0;
+  }
+  .project_title{
+    font-size: 1.5em;
+    margin-bottom: .3em;
+  }
+  .project-url{
+    font-size: 1em;
+  }
+  .porfolio p small a{
+    margin: .3em 0;
+    font-size: .9em;
+  }
+  .project_course{
+    font-size: .7em;
+  }
+  .project-date{
+    font-size: 1em;
+  }
+  .project-description{
+    font-size: .8em;
+  }
 }
 
 @media screen and (max-width: 480px){
-  
+  .project-details{
+    width: auto;
+    font-size: 12px;
+  }
 }
 
