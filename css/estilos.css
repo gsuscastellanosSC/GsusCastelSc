@@ -49,9 +49,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header img{
+  margin-right: 490px;
   height: 90px;
   width: 200px;
   vertical-align: middle;
@@ -287,7 +289,7 @@ h1 strong{
 }
 
 .container{
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -295,3 +297,16 @@ h1 strong{
   height: inherit;
   flex-wrap: inherit;
 }
+
+@media screen and (max-width: 480px){
+  
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 480px){
+  
+}
+
