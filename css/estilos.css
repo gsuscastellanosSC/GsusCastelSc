@@ -131,9 +131,6 @@ h1 strong{
   height: 200px;
   width: 500px;
 }
-.project-imageContainer {
-  width: 450px;
-}
 .project_title{
   font-size: 30px;
   margin-top: 0px;
@@ -152,9 +149,19 @@ h1 strong{
 }
 .project-details{
   margin-top: 60px;
-  width: 450px;
+  width: 50%;
   height: 240px;
 }
+
+.project-imageContainer {
+  width: 50%;
+}
+
+.project-imageContainer img{
+  max-width: 100%;
+  
+}
+
 .event { 
   padding-left: 0;
   margin: 25px;
@@ -301,7 +308,7 @@ h1 strong{
   flex-wrap: inherit;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1024px){
   
 }
 
@@ -323,6 +330,16 @@ h1 strong{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .project{
+    display: block;
+  }
+  .project-imageContainer{
+    width: auto;
+    text-align: center;
+  }
+  .project-details{
+    width: auto;
   }
 }
 
