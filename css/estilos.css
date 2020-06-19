@@ -25,14 +25,19 @@ ul {
   /* background-repeat: no-repeat; */
   /* background-position-x: right; */
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .hero-img{
   height: 300px;
   width: 300px;
 }
 .hero-text{
+  width: 700px;
+  height: 240px;
+  padding-top: 60px;
   color: white;
-  padding-top: 75px;
   font-style: oblique;  
 }
 body{
@@ -131,13 +136,14 @@ h1 strong{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .project-image{
   height: 200px;
   width: 500px;
 }
 .project-imageContainer {
-  width: 500px;
+  width: 450px;
 }
 .project_title{
   font-size: 30px;
@@ -155,14 +161,14 @@ h1 strong{
 .project strong{
   font-family: 'Fjalla One', sans-serif;
 }
-
 .project-details{
-  width: 500px;
+  margin-top: 60px;
+  width: 450px;
+  height: 240px;
 }
-
 .event { 
   margin: 10px;
-  width: 480px;
+  width: 450px;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -182,16 +188,16 @@ h1 strong{
 }
 
 .event img {
-  width: 480px;
-  height: 300px;
+  width:  450px;
+  height: 150px;
   
 }
 .event-detail {
   margin: 20px 40px;
-  margin-top: -40px;
+  margin-top: -25px;
   background-color: white;
   position: relative;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 .event-description {
