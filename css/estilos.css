@@ -57,17 +57,6 @@ body{
   flex-wrap: wrap;
 }
 
-.header img{
-  margin-right: 490px;
-  height: 90px;
-  width: 200px;
-  vertical-align: middle;
-  color: white;
-  border: 1px solid;
-  padding: 5px 20px;
-  border-radius: 10px;
-}
-
 ol,
 ul {
   margin: 0;
@@ -167,7 +156,8 @@ h1 strong{
   height: 240px;
 }
 .event { 
-  margin: 10px;
+  padding-left: 0;
+  margin: 25px;
   width: 450px;
   flex-shrink: 0;
   border-radius: 10px;
@@ -177,9 +167,11 @@ h1 strong{
 
 .event-list {
   display: flex;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 .event-list-title {
+  padding: 0 0 0 10px;
   color: #026fff;
   margin-left: 20px;
   text-transform: uppercase;
@@ -215,22 +207,22 @@ h1 strong{
 .contacto{
   background-color:  #056fff;
   color: white;
+  margin-left: 0;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contacto_h3{
   color: white;
 }
 
-
 .social-link{
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 0 10px;
   background-size: 50px 50px;
 }
 
@@ -260,6 +252,8 @@ h1 strong{
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 5px;
+  margin-left: 0px;
+ 
 }
 
 .form-email button{
@@ -272,6 +266,7 @@ h1 strong{
   border-radius: 5px;
   width: 100px;
   margin-top: 10px;
+  margin-left: 0px;
 }
 
 .form-email h3{
@@ -285,6 +280,7 @@ h1 strong{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer img{
@@ -296,6 +292,7 @@ h1 strong{
 
 .container{
   max-width: 1000px;
+  flex: 1;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -308,8 +305,25 @@ h1 strong{
   
 }
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 767px){
+  .header{
+    display: block;
+    height: auto;
+  }
+  .header ol{
+    display: block;
+  }
+  .header ol li{
+    height: 50px;
+  }
+  .header a{
+    justify-content: center;
+  }
+  .header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 480px){
