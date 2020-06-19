@@ -371,6 +371,9 @@ h1 strong{
     width: auto;
     flex-shrink: initial;
   }
+  .event-detail {
+    margin: -2em 0.5em 0.5em;
+  }
 }
 
 @media screen and (max-width: 480px){
