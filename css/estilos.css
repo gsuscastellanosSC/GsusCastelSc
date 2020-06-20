@@ -218,7 +218,7 @@ h1 strong{
   background-color:  #056fff;
   color: white;
   margin-left: 0;
-  height: 150px;
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -312,7 +312,9 @@ h1 strong{
 }
 
 @media screen and (max-width: 1024px){
-  
+  .container {
+    padding: 0 1em;
+  }
 }
 
 @media screen and (max-width: 767px){
@@ -394,6 +396,15 @@ h1 strong{
   }
   .form-email button{
     margin: 1em auto;
+  }
+
+  .form-email h3{
+    margin-top: 0;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
   }
 }
 
