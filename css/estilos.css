@@ -381,5 +381,19 @@ h1 strong{
     width: auto;
     font-size: 12px;
   }
+
+  .event-detail {
+    margin: -2em .5em .5em;
+    padding: 1em;
+  }
+  .contacto {
+    height: auto;
+    padding: 1em 0;
+    text-align: center;
+    display: block;
+  }
+  .form-email button{
+    margin: 1em auto;
+  }
 }
 
