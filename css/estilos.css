@@ -354,8 +354,13 @@ h1 strong{
 
 @media screen and (max-width: 767px){
   .hero-text {
-     font-size: 1.8em;
+     font-size: 2em;
   }
+
+  .hero-img {
+    height: 30%;
+    width: 40%;
+   }
 
   .header{
     display: block;
@@ -419,7 +424,7 @@ h1 strong{
 
 @media screen and (max-width: 480px){
   .hero-text {
-      font-size: .8em;
+      font-size: .9em;
    }
 
   .project-details{
