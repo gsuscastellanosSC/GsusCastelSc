@@ -252,6 +252,10 @@ h1 strong{
   background-image: url('../images/github.svg');
 }
 
+.social-link.platzi{
+  background-image: url('../images/platziSocialLink.png');
+}
+
 .form-email input{
   border-color: gray;
   border-style: solid;
@@ -326,8 +330,8 @@ h1 strong{
 
   .hero-img {
     position: relative;
-    height: 10%;
-    width: 50%;
+    height: 50%;
+    width: 60%;
     z-index: 2;
     left: 0;
     right: 0;
