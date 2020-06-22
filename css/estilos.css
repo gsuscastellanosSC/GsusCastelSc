@@ -445,7 +445,7 @@ h1 strong{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 3s;
+    transition: 1s;
   }
 
   .menu.is-active {
