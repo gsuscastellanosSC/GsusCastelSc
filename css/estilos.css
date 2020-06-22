@@ -361,7 +361,7 @@ h1 strong{
   color: white;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .container {
     padding: 0 1em;
   }
@@ -395,6 +395,9 @@ h1 strong{
     height: auto;
     font-size: 1.5em;
     z-index: 1;   
+  }
+  .project-details {
+    margin-top: 5px;
   }
 }
 
@@ -500,6 +503,7 @@ h1 strong{
    }
 
   .project-details{
+    margin-top: 5px;
     width: auto;
     font-size: 12px;
   }
