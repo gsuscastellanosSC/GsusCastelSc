@@ -336,6 +336,7 @@ h1 strong{
   }
 
   .hero-text {
+    align-items: center;
     position: relative;
     font-size: 1em;
     width: 100%;
@@ -347,8 +348,9 @@ h1 strong{
 
 @media screen and (max-width: 767px){
   .hero-text {
-    font-size: 1.5em;
+     font-size: 1em;
   }
+
   .header{
     display: block;
     height: auto;
@@ -410,6 +412,12 @@ h1 strong{
 }
 
 @media screen and (max-width: 480px){
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .project-details{
     width: auto;
     font-size: 12px;
