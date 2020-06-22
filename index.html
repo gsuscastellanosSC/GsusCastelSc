@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+  <i class="icon-menu burger-burger" id="burger-menu"></i>
   <header class="header">
     <div class="container">
       <figure class="logo">
@@ -35,14 +36,13 @@
     </div>
   </header>
   <section class="hero">
-   <div class="container">
+  <div class="container">
     <h1 class="hero-text">
       ¡Hola! Soy <strong>Jesus</strong>, ingeniero de sistemas<br>con <strong>experiencia</strong> en <strong>datos</strong> y <strong>desarrollo</strong> de <strong>aplicaciones</strong>.
     </h1>
     <img class="hero-img" src="images/IMG_20191115_151604.jpg" width="500" height="500" alt="FotoPerfil" >
-   </div>
+  </div>
   </section>
-  
   <section id="briefcase" class="porfolio">
     <div class="container">
       <h2 class="porfolio-title__h2">Portafolio (Proyectos Destacados)</h2>
@@ -185,5 +185,18 @@
       </div>
   </footer>
   </div>
+  <script>
+      const menu = document.querySelector('.menu');
+      const burgerButton = document.querySelector('#burger-menu');
+      
+      burgerButton.addEventListener('click', function (){
+        if(menu.classList.contains('is-active')){
+          menu.classList.remove('is-active');
+        }else{
+          menu.classList.add('is-active');
+        }
+      });
+           
+  </script>
 </body>
 </html>
