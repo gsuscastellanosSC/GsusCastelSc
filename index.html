@@ -186,16 +186,31 @@
   </footer>
   </div>
   <script>
-      const menu = document.querySelector('.menu');
-      const burgerButton = document.querySelector('#burger-menu');
+   const ipad = window.matchMedia('screen and (max-width:767px)');
+   const menu = document.querySelector('.menu');
+   const burgerButton = document.querySelector('#burger-menu');
+   ipad.addListener(validate);
+   burgerButton.addEventListener('click', showHide);
+
+   function validate (event){
+      console.log(event.matches);
+      console.log(event);
       
-      burgerButton.addEventListener('click', function (){
-        if(menu.classList.contains('is-active')){
-          menu.classList.remove('is-active');
-        }else{
-          menu.classList.add('is-active');
-        }
-      });
+      if(event.matches){
+        burgerButton.addEventListener('click', showHide);
+      }else{
+        burgerButton.removeEventListener('click', showHide);
+      }
+    }  
+    
+    function showHide(){
+      if(menu.classList.contains('is-active')){
+        menu.classList.remove('is-active');
+      }else{
+        menu.classList.add('is-active');
+      }
+    }
+
            
   </script>
 </body>
