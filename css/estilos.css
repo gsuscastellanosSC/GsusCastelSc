@@ -350,15 +350,7 @@ h1 strong{
 
 @media screen and (max-width: 767px){
   .hero-text {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    align-items: center;
-    font-size: .5em;
-    width: auto;
-    height: auto;
-    font-size: 1.5em;
-    z-index: 1;   
+     font-size: 1.8em;
   }
 
   .header{
@@ -422,24 +414,10 @@ h1 strong{
 }
 
 @media screen and (max-width: 480px){
-  .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .hero-text {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    align-items: center;
-    font-size: .5em;
-    width: auto;
-    height: auto;
-    font-size: 1.5em;
-    z-index: 1;   
-  }
-  
+      font-size: .8em;
+   }
+
   .project-details{
     width: auto;
     font-size: 12px;
