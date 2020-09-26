@@ -1,0 +1,167 @@
+@media screen and (max-width: 1023px){
+    .container {
+      padding: 0 1em;
+    }
+  
+    .hero {
+      height: auto;
+      width: auto;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .hero-img {
+      position: relative;
+      height: 50%;
+      width: 60%;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+  
+    .hero-text {
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      align-items: center;
+      font-size: 1em;
+      width: auto;
+      height: auto;
+      font-size: 1.5em;
+      z-index: 1;   
+    }
+    .project-details {
+      margin-top: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 767px){
+    .burger-burger{
+      display: block;
+    }
+    .hero-text {
+       font-size: 2em;
+    }
+  
+    .hero-img {
+      height: 30%;
+      width: 40%;
+     }
+  
+    .header{
+      display: block;
+      height: auto;
+    }
+    .header ol{
+      display: block;
+    }
+    .header ol li{
+      height: 50px;
+    }
+    .header a{
+      justify-content: center;
+      height: 40px;
+      font-size: 2em;
+      text-decoration: underline;
+      margin-bottom: .5em;
+    }
+    .header .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .menu{
+      position: fixed;
+      background-color: rgba(5, 111, 255, 0.9);
+      z-index: 3;
+      top: 0;
+      left: -100vw;
+      width: 100vw;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 1s;
+    }
+  
+    .menu.is-active {
+      left: 0;
+    }
+  
+    .project{
+      display: block;
+    }
+    .project-imageContainer{
+      width: auto;
+      text-align: center;
+    }
+    .project-details{
+      width: auto;
+    }
+    .project_course, .project-date, .project-url{
+      margin: .3em 0;
+    }
+    .project_title{
+      font-size: 1.5em;
+      margin-bottom: .3em;
+    }
+    .project-url{
+      font-size: 1em;
+    }
+    .porfolio p small a{
+      margin: .3em 0;
+      font-size: .9em;
+    }
+    .project_course{
+      font-size: .7em;
+    }
+    .project-date{
+      font-size: 1em;
+    }
+    .project-description{
+      font-size: .8em;
+    }
+    .event{
+      width: auto;
+      flex-shrink: initial;
+    }
+    .event-detail {
+      margin: -2em 0.5em 0.5em;
+    }
+  }
+  
+  @media screen and (max-width: 480px){
+    .hero-text {
+        font-size: .9em;
+     }
+  
+    .project-details{
+      margin-top: 5px;
+      width: auto;
+      font-size: 12px;
+    }
+  
+    .event-detail {
+      margin: -2em .5em .5em;
+      padding: 1em;
+    }
+    .contacto {
+      height: auto;
+      padding: 1em 0;
+      text-align: center;
+      display: block;
+    }
+    .form-email button{
+      margin: 1em auto;
+    }
+  
+    .form-email h3{
+      margin-top: 0;
+    }
+    
+  }
+  

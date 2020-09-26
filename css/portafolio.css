@@ -1,0 +1,15 @@
+.porfolio{
+    background: white;
+    padding: 20px;
+  }
+  .porfolio-title__h2{
+    padding-left: 10px;
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+  }
+  
+  .porfolio p small a{
+    font-size: 15px;
+  }
