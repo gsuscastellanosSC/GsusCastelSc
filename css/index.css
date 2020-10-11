@@ -1,27 +1,4 @@
-/* reglas
-selectores
-declaraciones
-propiedades
-valores */
-
-/* regla */
-
-/* selector de ETIQUETA "header"-->*/
-/* declaración "background"--->*/
-/* valores "red"*/
-@font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?ki6rmc');
-    src:  url('../fonts/icomoon.eot?ki6rmc#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?ki6rmc') format('truetype'),
-      url('../fonts/icomoon.woff?ki6rmc') format('woff'),
-      url('../fonts/icomoon.svg?ki6rmc#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak-as: never;
@@ -30,220 +7,27 @@ valores */
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-  
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-menu:before {
-    content: "\e900";
-  }
-  
-  ol,
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  
-  
-  body{
+}
+body{
     font-family: 'Source Sans Pro', sans-serif;
+}
+figure {
     margin: 0;
-  }
-  
-  .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-style: oblique;
-    background-color: black;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  ol,
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  figure {
-    margin: 0;
-  }
-  
-  .header a {
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: inherit;
-    padding: 0 10px;
-  }
-  
-  .menu {
-    height: inherit;
-  }
-  .header ol {
-    display: flex;
-    height: inherit;
-  }
-  .header ol li {
-    height: inherit;
-  }
-  
-  h1,h2,h3,h4,h5,h6{
+}
+h1,h2,h3,h4,h5,h6{
     color: black;
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
-  }
-  
-  h1{
+}
+h1{
     font-size: 40px;
     line-height: 150%;
     letter-spacing: -.2px;
     margin: 0px 0px 0px 0px;
-  }
-  h1 strong{
+}
+h1 strong{
     color:#026fff;
-  }
-  
-  
-  .project{
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 20px;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .project-image{
-    height: 200px;
-    width: 500px;
-  }
-  .project_title{
-    font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
-  .project_course, .project-date, .project-url{
-    margin: 10px 0;
-    font-size: 20px;
-  }
-  
-  .project-description{
-    font-size: 20px;
-  }
-  
-  .project strong{
-    font-family: 'Fjalla One', sans-serif;
-  }
-  .project-details{
-    margin-top: 60px;
-    width: 50%;
-    height: 240px;
-  }
-  
-  .project-imageContainer {
-    width: 50%;
-  }
-  
-  .project-imageContainer img{
-    max-width: 100%;
-  
-  }
-  
-  .event { 
-    margin: 1%;
-    width: 48%;
-    flex-shrink: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #f4fbff;
-  }
-  
-  .event-list {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-  }
-  .event-list-title {
-    padding: 0 0 0 10px;
-    color: #026fff;
-    margin-left: 20px;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-  }
-  
-  .event img {
-    width:  100%;
-    height: 150px;
-    
-  }
-  .event-detail {
-    margin: 20px 40px;
-    margin-top: -25px;
-    background-color: white;
-    position: relative;
-    padding: 5px;
-    text-align: center;
-  }
-  .event-description {
-    text-align: left;
-  }
-  
-  .event-url {
-    color: #056fff;
-    border: 1px solid;
-    padding: 5px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .downloads-container{
-    display: flex;
-    background-color: white;
-    color: white;
-    align-items: center;
-    top: 0;
-    height: 180px;
-    
-  }
-  
-  .downloads-link{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px 50px;
-  }
-  .downloads-link.pdf{
-    background-image: url('../images/downloads.png');
-  }
-  
-  .burger-burger{
-    
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: none;
-    line-height: 40px;
-    text-align: center;
-    position: fixed;
-    z-index: 4;
-    left: 5px;
-    top: 5px;
-    color: white;
-  }
-  
-  
-  
+}

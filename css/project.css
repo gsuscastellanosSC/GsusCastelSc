@@ -1,0 +1,47 @@
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .project-image{
+    height: 200px;
+    width: 500px;
+  }
+  .project_title{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .project_course, .project-date, .project-url{
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .project-description{
+    font-size: 20px;
+  }
+  
+  .project strong{
+    font-family: 'Fjalla One', sans-serif;
+  }
+  .project-details{
+    margin-top: 60px;
+    width: 50%;
+    height: 240px;
+  }
+  
+  .project-imageContainer {
+    width: 50%;
+  }
+  
+  .project-imageContainer img{
+    max-width: 100%;
+  
+  }
+  

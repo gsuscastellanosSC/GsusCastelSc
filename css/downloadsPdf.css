@@ -1,0 +1,14 @@
+.downloads{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.downloads-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+ }
+.downloads-link.pdf{
+    background-image: url('../images/DownloadPdf.jpg');
+}
