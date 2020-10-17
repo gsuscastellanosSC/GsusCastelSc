@@ -1,0 +1,23 @@
+.hero{
+    height: 302px;
+    /* background-image: url('../images/IMG_20191115_151604.jpg'); */
+    background-color: #000000;
+    /* background-size: 300px 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .hero-img{
+    height: 300px;
+    width: 300px;
+  }
+  .hero-text{
+    width: 700px;
+    height: 240px;
+    padding-top: 60px;
+    color: white;
+    font-style: oblique;  
+  }

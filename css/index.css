@@ -1,0 +1,33 @@
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak-as: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+figure {
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+h1{
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -.2px;
+    margin: 0px 0px 0px 0px;
+}
+h1 strong{
+    color:#026fff;
+}

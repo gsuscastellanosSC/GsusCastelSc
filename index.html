@@ -7,100 +7,147 @@
   <title>Sc</title>
   <link rel="icon" type="images/jpg" href="images/Logo.jpg">
   <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/container.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/project.css">
+  <link rel="stylesheet" href="css/event.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <i class="icon-menu burger-burger" id="burger-menu"></i>
   <header class="header">
     <div class="container">
-      <figure class="logo">
-        <img src="https://fontmeme.com/permalink/200619/84f1b1449c3113227482b9cab6f26e99.png"alt="logo">
-        <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/5b665b6c9c76c0fadd29ff66a17fe67c.png" alt="logo"> -->
-        <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/00b959f3d3aadcdb1e7a0e89842395c9.png" alt="logo"> -->
-        <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/03b296551599f1f5dbf984c8abd0f659.png" alt="logo"> -->
-      </figure>     
+       <div class="container">
+-        <figure class="logo">
+-          <img src="https://fontmeme.com/permalink/200619/84f1b1449c3113227482b9cab6f26e99.png"alt="logo">
+-          <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/5b665b6c9c76c0fadd29ff66a17fe67c.png" alt="logo"> -->
+-          <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/00b959f3d3aadcdb1e7a0e89842395c9.png" alt="logo"> -->
+-          <!-- <img class="logo-img" src="https://fontmeme.com/permalink/200615/03b296551599f1f5dbf984c8abd0f659.png" alt="logo"> -->
+-        </figure>     
+-        <nav class="menu">
+-        <ol>
+-          <li>
+-            <a href="#presentation">Curriculum</a>
+-          </li>
+-          <li>
+-            <a href="../index.html">Portafolio</a>
+-          </li>
+-          <li>
+-            <a href="../index.html">Experiencia</a>
+-          </li>
+-          <li>
+-            <a href="../index.html">Enlaces de Interés</a>
+-          </li>
+-          <li>
+-            <a href="../index.html">Contacto</a>
+-          </li>
+-        </ol>
+-        </nav>
+-      </div>
       <nav class="menu">
-      <ol>
-        <li>
+      <ol class="menu_ol">
+        <li class="menu_ol-li">
+          <a href="html/curriculum.html">Curriculum</a>
+        </li>
+        <li class="menu_ol-li">
           <a href="#briefcase">Portafolio</a>
         </li>
-        <li>
+        <li class="menu_ol-li">
           <a href="#experiencia">Experiencia</a>
         </li>
-        <li>
+        <li class="menu_ol-li">
           <a href="#notas">Enlaces de Interés</a>
         </li>
-        <li>
+        <li class="menu_ol-li">
           <a href="#contact">Contacto</a>
         </li>
       </ol>
       </nav>
     </div>
   </header>
-  <section class="hero">
-  <div class="container">
-    <h1 class="hero-text">
-      ¡Hola! Soy <strong>Jesus</strong>, ingeniero de sistemas<br>con <strong>experiencia</strong> en <strong>datos</strong> y <strong>desarrollo</strong> de <strong>aplicaciones</strong>.
-    </h1>
-    <img class="hero-img" src="images/IMG_20191115_151604.jpg" width="500" height="500" alt="FotoPerfil" >
-  </div>
+  
   </section>
   <section id="briefcase" class="porfolio">
     <div class="container">
-      <h2 class="porfolio-title__h2">Portafolio (Proyectos Destacados)</h2>
-    <article class="project">
-      <div class="project-details">
-        <h3 class="project_title">Plazi Video</h3>
-        <h6 class="project_course">React Native / React</h6>
-        <p class="project-date"><small><strong>Fecha: </strong>01/11/2019</small></p>
-        <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://PlatziVideo" target="_blank">https://PlatziVideo</a></small></p>
-        <p class="project-description">Plazi video fue producto de la dedicación y esfuerzon de la primera edición de la escuela de js de platzi.</p>
-      </div>
-      <figure class="project-imageContainer">
-        <img class="project-image" width="500" src="images/platziVIdeo.webp" alt="PlatziVideo">
-      </figure>
-    </article> 
-    
-    <article class="project">
-      <div class="project-details">
-        <h3 class="project_title">Plazi Video</h3>
-        <h6 class="project_course">React Native / React</h6>
-        <p class="project-date"><small><strong>Fecha: </strong>01/11/2019</small></p>
-        <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://PlatziVideo" target="_blank">https://PlatziVideo</a></small></p>
-        <p class="project-description">Plazi video fue producto de la dedicación y esfuerzon de la primera edición de la escuela de js de platzi.</p>
-      </div>
-      <figure class="project-imageContainer">
-        <img class="project-image" width="500" src="images/platziVIdeo.webp" alt="PlatziVideo">
-      </figure>
-    </article> 
+        <h2 class="porfolio-title__h2">Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+            <div class="project-details">
+                <h3 class="project_title">
+                    Plazi Video
+                </h3>
+                <h6 class="project_course">
+                    React Native / React
+                </h6>
+                <p class="project-date">
+                    <small>
+                        <strong>
+                            Fecha: 
+                        </strong>
+                        01/11/2019
+                    </small>
+                </p>
+                <p class="project-url">
+                    <small>
+                        <strong>
+                            Puedes verlo en: 
+                        </strong>
+                        <a href="https://PlatziVideo" target="_blank">
+                            https://PlatziVideo
+                        </a>
+                    </small>
+                </p>
+                    <p class="project-description">
+                        Plazi video fue producto de la dedicación y esfuerzon de la primera edición de la escuela de js de platzi.
+                    </p>
+            </div>
+            <figure class="project-imageContainer">
+                <img class="project-image" width="500" src="images/platziVIdeo.webp" alt="PlatziVideo">
 
-    <article class="project">
-      <div class="project-details">
-        <h3 class="project_title">Plazi Video</h3>
-        <h6 class="project_course">React Native / React</h6>
-        <p class="project-date"><small><strong>Fecha: </strong>01/11/2019</small></p>
-        <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://PlatziVideo" target="_blank">https://PlatziVideo</a></small></p>
-        <p class="project-description">Plazi video fue producto de la dedicación y esfuerzon de la primera edición de la escuela de js de platzi.</p>
-      </div>
-      <figure class="project-imageContainer">
-        <img class="project-image" width="500" src="images/platziVIdeo.webp" alt="PlatziVideo">
-      </figure>
-    </article> 
-
-    <article class="project">
-      <div class="project-details">
-        <h3 class="project_title">Plazi Video</h3>
-        <h6 class="project_course">React Native / React</h6>
-        <p class="project-date"><small><strong>Fecha: </strong>01/11/2019</small></p>
-        <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://PlatziVideo" target="_blank">https://PlatziVideo</a></small></p>
-        <p class="project-description">Plazi video fue producto de la dedicación y esfuerzon de la primera edición de la escuela de js de platzi.</p>
-      </div>
-      <figure class="project-imageContainer">
-        <img class="project-image" width="500" src="images/platziVIdeo.webp" alt="PlatziVideo">
-      </figure>
-    </article> 
-
+                </img>
+            </figure>
+        </article> 
+        <article class="project">
+            <div class="project-details">
+                <h3 class="project_title">
+                    Plazi Video
+                </h3>
+                <h6 class="project_course">
+                    React Native / React
+                </h6>
+                <p class="project-date">
+                    <small>
+                        <strong>
+                            Fecha: 
+                        </strong>
+                        01/11/2019
+                    </small>
+                </p>
+                <p class="project-url">
+                    <small>
+                        <strong>
+                            Puedes verlo en: 
+                        </strong>
+                        <a href="https://PlatziVideo" target="_blank">
+                            https://PlatziVideo
+                        </a>
+                    </small>
+                </p>
+                <p class="project-description">
+                    Plazi video fue producto de la dedicación y esfuerzon de la primera edición de la escuela de js de platzi.
+                </p>
+            </div>
+            <figure class="project-imageContainer">
+                <img class="project-image" width="500" src="images/platziVIdeo.webp" alt="PlatziVideo">
+                
+                </img>
+            </figure>
+        </article> 
     </div>
   </section>
   <div class="container">
@@ -177,20 +224,20 @@
   </section>
   <section id="contact" class="contacto">
     <div class="container">
-   <form class="form-email" action="mailto:jesuscastellanospaez@gmail.com?Subject=¿Creamos algo juntos\?" method="post" target="_blank"> 
-      <h3 class="contacto_h3">&#191;Creamos algo juntos&#63;</h3>
-      <input id=" " name=" " type="text" placeholder="Dejame tu email" required>
-      <button>Enviar</button>
-    </form>
-    <div class="social">
-      <a href="https://platzi.com/@GsuscastelSC/" target="_blank" class="social-link platzi"></a>
-      <a href="https://twitter.com/GsuscastelSC" target="_blank" class="social-link twitter"></a>
-      <a href="https://www.linkedin.com/in/jesus-castellanos-paez/" target="_blank" class="social-link linkedin"></a>
-      <a href="https://github.com/gsuscastellanosSC" target="_blank" class="social-link github"></a>
+      <form class="form-email" action="/suscripcion/">
+        <h3 class="contacto_h3">¿Creamos algo juntos?</h3>
+        <input type="text" placeholder="Dejame tu email">
+        <button>Enviar</button>
+      </form>
+      <div class="social">
+        <a href="https://platzi.com/@GsuscastelSC/" target="_blank" class="social-link platzi"></a>
+        <a href="https://twitter.com/GsuscastelSC" target="_blank" class="social-link twitter"></a>
+        <a href="https://www.linkedin.com/in/jesus-castellanos-paez/" target="_blank" class="social-link linkedin"></a>
+        <a href="https://github.com/gsuscastellanosSC" target="_blank" class="social-link github"></a>
+      </div>
     </div>
   </section>
-  </div>
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="container">
       <div>
         <p>Portafolio Jesus .A. Castellanos <img src="images/logoPlatzi.png" width="80px" alt="logoPlatzi"></p>
@@ -201,14 +248,12 @@
         </p>
       </div>
   </footer>
-  </div>
   <script>
-   const menu = document.querySelector('.menu');
-   const ipad = window.matchMedia('screen and (max-width:767px)');
-   validate(ipad);
-   ipad.addListener(validate);
-
-   function validate (event){
+    const menu = document.querySelector('.menu');
+    const ipad = window.matchMedia('screen and (max-width:767px)');
+    validate(ipad);
+    ipad.addListener(validate);
+    function validate (event){
       console.log(event.matches);
       console.log(event);
       const burgerButton = document.querySelector('#burger-menu');
@@ -225,7 +270,6 @@
         burgerButton.removeEventListener('click', showHide);
       }
     }  
-
   </script>
 </body>
 </html>
