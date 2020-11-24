@@ -288,6 +288,10 @@ h1 strong{
   background-image: url('../images/platziSocialLink.png');
 }
 
+.social-link.cv{
+  background-image: url('../images/cv.jpg');
+}
+
 .form-email input{
   border-color: gray;
   border-style: solid;
